@@ -1,0 +1,83 @@
+<Alloy>
+	<View layout="horizontal" top="20" left="25%" width="100%">
+		<View backgroundImage="widget/bg-boleto-suerte.png" onSingletap="asignaBoleto" width="50%" height="55" borderColor="black" borderWidth="3" borderRadius="5">
+			<View touchEnabled="false" borderRadius="0" backgroundColor="black" borderRadius="5" height="45" width="92%">
+				<Picker id="pickerBoletos" width="100%" borderRadius="15" opacity="0.8">
+					<PickerColumn width="20%">
+						<PickerRow><Label class="labelPicker">0</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">1</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">2</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">3</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">4</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">5</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">6</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">7</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">8</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">9</Label></PickerRow>
+					</PickerColumn>
+					<PickerColumn width="20%">
+						<PickerRow><Label class="labelPicker">0</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">1</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">2</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">3</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">4</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">5</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">6</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">7</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">8</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">9</Label></PickerRow>
+					</PickerColumn>
+					<PickerColumn width="20%">
+						<PickerRow><Label class="labelPicker">0</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">1</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">2</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">3</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">4</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">5</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">6</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">7</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">8</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">9</Label></PickerRow>
+					</PickerColumn>
+					<PickerColumn width="20%">
+						<PickerRow><Label class="labelPicker">0</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">1</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">2</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">3</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">4</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">5</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">6</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">7</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">8</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">9</Label></PickerRow>
+					</PickerColumn>
+					<PickerColumn width="20%">
+						<PickerRow><Label class="labelPicker">0</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">1</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">2</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">3</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">4</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">5</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">6</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">7</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">8</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">9</Label></PickerRow>
+					</PickerColumn>
+					<PickerColumn width="20%">
+						<PickerRow><Label class="labelPicker">0</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">1</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">2</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">3</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">4</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">5</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">6</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">7</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">8</Label></PickerRow>
+						<PickerRow><Label class="labelPicker">9</Label></PickerRow>
+					</PickerColumn>
+				</Picker>
+			</View>
+		</View>
+		<ImageView onSingletap="asignaBoleto" id="palanca" image="widget/bg-palanca-arriba.png"></ImageView>
+	</View>
+</Alloy>

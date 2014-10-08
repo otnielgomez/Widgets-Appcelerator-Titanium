@@ -1,0 +1,13 @@
+".labelPicker": {
+	color:"white",
+	backgroundColor:"black",
+	borderRadius:2,
+	borderColor: 'black',
+    borderWidth: 1,
+},
+"#palanca": {
+	width:"15",
+	height:"55",
+	left:"-1",
+	top:"-1"
+}
