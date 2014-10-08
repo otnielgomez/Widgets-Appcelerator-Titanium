@@ -1,4 +1,4 @@
-WidgetsAppceleratorTitanium
+Widgets Appcelerator Titanium
 ===========================
 
 Aqui se muestran widgets creados por Otniel Gomez para usarse con Appcelerator.
